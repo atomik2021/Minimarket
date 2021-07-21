@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    width: 100%;
+    height: 430px;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenido{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    height: 120px;
+    background: url(../img/fondo2.jpg);
+    width: 100%;
+    z-index: 12;
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    letter-spacing: 1px;
+}
+nav{
+    width: 30%;
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #fff;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+header nav a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+/* ------------------------------ ESTILOS CARDS ----------------------- */
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 90px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+.contenedor .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.contenedor .card h4{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: rgb(37, 29, 29);
+}
+
+.contenedor .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.contenedor .card a{
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* ---------------------------FOOTER--------------------------- */
+
+#footer{
+    width: 100%;
+    height: 470px;
+    background: black;
+    color: white;
+    overflow: hidden;
+}
+
+#footer .wrap > div{
+    float: left;
+    width: 320px;
+    height: 370px;
+    margin: 40px ;
+    padding-left: 150px;
+    text-align: center;
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #37bcf9;
+    transition: all 300ms;
+}
+
+#footer h5{
+    display: block;
+    background: url(../img/pxgray.png),white;
+    height: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 27px;
+    line-height: 55px;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#footer ul{
+    text-align: left;
+    margin: 20px;
+    font-size: 25px;
+}
+
+#footer ul li{
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#footer ul li a{
+    display: block;
+    height: 40px;
+    transition: all 300ms;
+}
+
+#footer ul li:hover a{
+    padding-left: 40px;
+    color: white;
+    width: 100%;
+}
+
+#footer iframe{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#footer img{
+    margin-bottom: 15px;
+}
+
+#footer #info .edit{
+    font-size: 25px;
+    font-family: 'Otomanopee One', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
